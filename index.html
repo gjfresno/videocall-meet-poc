@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Meet y Contenido Adicional</title>
+    <style>
+        body {
+          display: flex;
+          height: 100vh;
+          margin: 0;
+        }
+
+        #video-call {
+          width: 50%; /* Ocupa la mitad izquierda */
+          border-right: 2px solid #ccc;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        #extra-info {
+          width: 50%; /* Ocupa la mitad derecha */
+          padding: 20px;
+        }
+
+        button {
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<!-- Contenedor para la videollamada -->
+<div id="video-call">
+    <!-- Botón para unirse a la videollamada -->
+    <button onclick="window.open('https://meet.google.com/jrw-ensy-qex', '_blank')">Unirse a la videollamada</button>
+</div>
+
+<!-- Contenedor para información adicional -->
+<div id="extra-info">
+    <h1>Información adicional</h1>
+    <p>Aquí puedes colocar cualquier información que desees mostrar durante la videollamada.</p>
+    <!-- Más contenido -->
+</div>
+</body>
+</html>
+
